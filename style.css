@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
+
+body {
+  background-color: #c9a1ae;
+  font-family: 'Open Sans', sans-serif;
+  color: 2C3333;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+h1{
+  color: #2c2628;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+h2{
+  color: #2c2628;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+p{
+  margin-left: 20px;
+}
+
+a {
+  color: #963454;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #c9a1ae;
+}
+
+img{
+  height: 200px;
+}
+
+img.img-circle {
+  height:200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 10%, 10%;
+  box-shadow: 6px 6px 6px rgb(0 0 0 / 10%);
+}
+img.img-square{
+  opacity: 0.85;
+  float: left;
+  margin-right: 20px;
+  border-radius: 3%;
+  box-shadow: 3px 3px 3px rgb(0 0 0 / 10%);
+}
+
+.container{
+  width: 600px;
+  margin: 0 auto;
+}
+
+.header{
+  background: linear-gradient(to bottom right, #c9a1ae,#eadce0) ;
+  border-radius: 1%;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.card{
+  background-color: rgba(234, 220, 224, 0.7);
+  height: 300px;
+  border-radius: 1%;
+  text-align: left;
+  padding: 25px;
+  margin: 10px 0px;
+}
+
+.footer{
+  margin: auto;
+  text-align: center;
+}
+
+.list-inline{
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li{
+  display: inline;
+}
